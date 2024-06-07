@@ -1,16 +1,12 @@
-import 'dart:ffi';
-
-import 'package:flutter/foundation.dart';
-import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
+import 'package:surfsp/praias.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const App());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
+class App extends StatelessWidget {
+  const App({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,25 +14,21 @@ class MainApp extends StatelessWidget {
       home: Scaffold(
         body: Center(
           child: Container(
-            color: Color.fromARGB(255, 0, 0, 0),
-            width: 320, height: 200,
-            margin: EdgeInsets.only(
-              top: 32,
-              bottom: 20,
-            ),
+            color: Color.fromARGB(255, 255, 55, 55),
             child: TextButton(
               onPressed: () {
-                //abrir texto sobre a praia
-                //
+                //Navigator.pop(context);
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) =>
+                        MainApp(),
+                  ),
+                );
               },
-              child: Container(
-                margin: EdgeInsets.only(
-                  bottom: 8,
-                  left: 4,
-                ),
-                child: Text('Ubatuba'),)
-              
+              child: Text('Praias'),
             ),
+            //fazer nessa pagina: barra de menu, seletor de idioma e botões para navegação de paginas.
           ),
         ),
       ),
