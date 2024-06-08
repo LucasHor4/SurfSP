@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 
 void main() {
   runApp(const Praias());
@@ -59,33 +60,36 @@ class PraiasState extends State<Praias> {
           //Praia de Ubatuba:
 
           AnimatedContainer(
-            //Container e configurações dele.
-            margin: const EdgeInsets.only(
-              bottom: 20,
-              top: 20,
-              left: 40,
-              right: 40,
-            ),
-            width: 50,
-            height: selected ? 350 : 316,
-            color: selected
-                ? const Color.fromARGB(255, 28, 255, 8)
-                : const Color.fromARGB(255, 255, 0, 0),
-            duration: const Duration(seconds: 1),
-            curve: Curves.fastOutSlowIn,
-            //Texto sobre as praias.
-            child: Container(
-              width: 40,
-              height: 25,
+              //Container e configurações dele.
               margin: const EdgeInsets.only(
-                top: 30,
+                bottom: 20,
+                top: 20,
+                left: 40,
+                right: 40,
               ),
-              child: Image.asset(
-                'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                width: 50, height: 316,alignment: Alignment.topCenter,
-              ),
-            ),
-          ),
+              width: 50,
+              height: selected ? 350 : 316,
+              color: selected
+                  ? const Color.fromARGB(255, 28, 255, 8)
+                  : const Color.fromARGB(255, 131, 2, 2),
+              duration: const Duration(seconds: 1),
+              curve: Curves.fastOutSlowIn,
+              //Texto sobre as praias.
+              child: Stack(
+                children: [
+                  Image.asset(
+                    'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                    width: double.infinity,
+                    height: selected ? 316 : double.infinity,
+                    fit: BoxFit.cover,
+                  ),
+                  const Positioned(
+                    top: 250,
+                    left: 10,
+                    child: Text('Ubatuba', style: TextStyle(),),
+                  ),
+                ],
+              )),
           //Praia de  :
         ],
       )),
