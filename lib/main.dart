@@ -77,17 +77,34 @@ class PraiasState extends State<Praias> {
               //Texto sobre as praias.
               child: Stack(
                 children: [
+                  Positioned(
+                    
+                    child: 
                   Image.asset(
                     'img/Ubatuba-Melhores-Praias-Capa.jpg',
                     width: double.infinity,
-                    height: selected ? 316 : double.infinity,
-                    fit: BoxFit.cover,
-                  ),
+                    height: selected ? 646 : double.infinity,
+                    fit: selected ? BoxFit.none : BoxFit.cover,
+                    alignment: selected ? AlignmentDirectional.topCenter : Alignment.center,
+                  ),),
+                  
                   const Positioned(
                     top: 250,
                     left: 10,
-                    child: Text('Ubatuba', style: TextStyle(),),
+                    child: Text(
+                      'Ubatuba',
+                      style: TextStyle(),
+                    ),
                   ),
+                  Positioned(
+                      bottom: 20,
+                      left: 2,
+                      child: selected
+                          ? const Text(
+                              'ssssssssssssssssssssssssssssssss',
+                              style: TextStyle(fontWeight: FontWeight.bold, decoration: TextDecoration.none),
+                            )
+                          : const Text(''))
                 ],
               )),
           //Praia de  :
