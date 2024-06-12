@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/widgets.dart';
 
 void main() {
@@ -61,39 +62,40 @@ class PraiasState extends State<Praias> {
 
           AnimatedContainer(
               //Container e configurações dele.
+              
               margin: const EdgeInsets.only(
-                bottom: 20,
-                top: 20,
-                left: 40,
-                right: 40,
+                bottom: 10,
+                top: 10,
+                left: 50,
+                right: 50,
+              )
+              ,padding: const EdgeInsets.only(
+                bottom: 1,
+                top: 1,
+                left: 1,
+                right: 1,
               ),
-              width: 50,
-              height: selected ? 350 : 316,
-              color: selected
-                  ? const Color.fromARGB(255, 28, 255, 8)
-                  : const Color.fromARGB(255, 131, 2, 2),
+              width: 316,
+              height: selected ? 350 : 200,
+              color: const Color.fromARGB(255, 217, 217, 217),
               duration: const Duration(seconds: 1),
-              curve: Curves.fastOutSlowIn,
+              curve: Curves.ease,
               //Texto sobre as praias.
               child: Stack(
                 children: [
                   Positioned(
-                    
-                    child: 
-                  Image.asset(
-                    'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                    width: double.infinity,
-                    height: selected ? 646 : double.infinity,
-                    fit: selected ? BoxFit.none : BoxFit.cover,
-                    alignment: selected ? AlignmentDirectional.topCenter : Alignment.center,
-                  ),),
-                  
+                    child: Image.asset(
+                      'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                      width: 500,
+                      height: 200,
+                      fit: selected ? BoxFit.cover : BoxFit.cover,
+                    ),
+                  ),
                   const Positioned(
-                    top: 250,
+                    top: 160,
                     left: 10,
-                    child: Text(
-                      'Ubatuba',
-                      style: TextStyle(),
+                    child: Text('Ubatuba', 
+                    style: TextStyle(fontSize: 40, color: Colors.white, decoration: TextDecoration.none),
                     ),
                   ),
                   Positioned(
@@ -102,7 +104,11 @@ class PraiasState extends State<Praias> {
                       child: selected
                           ? const Text(
                               'ssssssssssssssssssssssssssssssss',
-                              style: TextStyle(fontWeight: FontWeight.bold, decoration: TextDecoration.none),
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  decoration: TextDecoration.none,
+                                  color: Color.fromARGB(255, 41, 41, 41)),
+                                  
                             )
                           : const Text(''))
                 ],
