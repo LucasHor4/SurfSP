@@ -54,16 +54,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: ubatuba ? 350 : 200,
@@ -93,15 +87,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: ubatuba
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -121,16 +116,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: caraguatatuba ? 350 : 200,
@@ -160,15 +149,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: caraguatatuba
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -188,16 +178,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: ilhabela ? 350 : 200,
@@ -227,15 +211,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: ilhabela
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -255,16 +240,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: ssebastiao ? 350 : 200,
@@ -294,15 +273,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: ssebastiao
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -322,16 +302,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: bertioga ? 350 : 200,
@@ -361,15 +335,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
-                        child: 
-                           bertioga ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                        child: bertioga
+                            ? const Text(
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -389,16 +364,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: guaruja ? 350 : 200,
@@ -428,15 +397,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: guaruja
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -456,16 +426,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: santos ? 350 : 200,
@@ -495,15 +459,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: santos
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -523,16 +488,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: svicente ? 350 : 200,
@@ -562,15 +521,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: svicente
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -590,16 +550,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: praiagrande ? 350 : 200,
@@ -629,15 +583,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: praiagrande
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -657,16 +612,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: mongagua ? 350 : 200,
@@ -696,15 +645,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: mongagua
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -724,16 +674,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: itanhaem ? 350 : 200,
@@ -763,15 +707,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: itanhaem
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -791,16 +736,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: peruibe ? 350 : 200,
@@ -830,15 +769,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: peruibe
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -858,16 +798,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: iguape ? 350 : 200,
@@ -897,15 +831,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: iguape
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -925,16 +860,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: ilhacomprida ? 350 : 200,
@@ -964,15 +893,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: ilhacomprida
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -992,16 +922,10 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 10,
-                  top: 10,
-                  left: 50,
-                  right: 50,
-                ),
-                padding: const EdgeInsets.only(
-                  bottom: 1,
-                  top: 1,
-                  left: 1,
-                  right: 1,
+                  bottom: 20,
+                  top: 20,
+                  left: 410,
+                  right: 410,
                 ),
                 width: 316,
                 height: cananeia ? 350 : 200,
@@ -1031,15 +955,16 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     Positioned(
-                        bottom: 20,
+                        top: 200,
                         left: 2,
                         child: cananeia
                             ? const Text(
-                                'ssssssssssssssssssssssssssssssss', //Aqui vai o texto sobre a praia.
+                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
-                                    fontWeight: FontWeight.bold,
                                     decoration: TextDecoration.none,
+                                    fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
+                                maxLines: 70, overflow: TextOverflow.visible,
                               )
                             : const Text(''))
                   ],
@@ -1047,7 +972,6 @@ class PraiasState extends State<Praias> {
           ),
 
           // Fim da praia.
-
         ],
       )),
     ));
