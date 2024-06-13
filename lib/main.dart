@@ -60,7 +60,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: ubatuba ? 350 : 200,
+                height: ubatuba ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -89,16 +89,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: ubatuba
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         ubatuba
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -122,7 +130,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: caraguatatuba ? 350 : 200,
+                height: caraguatatuba ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -151,16 +159,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: caraguatatuba
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         caraguatatuba
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -184,7 +200,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: ilhabela ? 350 : 200,
+                height: ilhabela ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -213,16 +229,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: ilhabela
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         ilhabela
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -246,7 +270,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: ssebastiao ? 350 : 200,
+                height: ssebastiao ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -275,16 +299,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: ssebastiao
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         ssebastiao
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -308,7 +340,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: bertioga ? 350 : 200,
+                height: bertioga ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -337,16 +369,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: bertioga
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         bertioga
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -370,7 +410,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: guaruja ? 350 : 200,
+                height: guaruja ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -399,16 +439,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: guaruja
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         guaruja
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -432,7 +480,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: santos ? 350 : 200,
+                height: santos ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -461,16 +509,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: santos
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         santos
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -494,7 +550,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: svicente ? 350 : 200,
+                height: svicente ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -523,16 +579,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: svicente
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         svicente
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -556,7 +620,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: praiagrande ? 350 : 200,
+                height: praiagrande ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -585,16 +649,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: praiagrande
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         praiagrande
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -618,7 +690,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: mongagua ? 350 : 200,
+                height: mongagua ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -647,16 +719,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: mongagua
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         mongagua
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -680,7 +760,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: itanhaem ? 350 : 200,
+                height: itanhaem ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -709,16 +789,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: itanhaem
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         itanhaem
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -742,7 +830,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: peruibe ? 350 : 200,
+                height: peruibe ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -771,16 +859,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: peruibe
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         peruibe
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -804,7 +900,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: iguape ? 350 : 200,
+                height: iguape ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -833,16 +929,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: iguape
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         iguape
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -866,7 +970,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: ilhacomprida ? 350 : 200,
+                height: ilhacomprida ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -895,16 +999,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: ilhacomprida
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         ilhacomprida
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
@@ -928,7 +1040,7 @@ class PraiasState extends State<Praias> {
                   right: 410,
                 ),
                 width: 316,
-                height: cananeia ? 350 : 200,
+                height: cananeia ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
                 curve: Curves.ease,
@@ -957,16 +1069,24 @@ class PraiasState extends State<Praias> {
                     Positioned(
                         top: 200,
                         left: 2,
-                        child: cananeia
+                        child:
+                        Container(padding: const EdgeInsets.only(
+                          left: 8,right: 100,
+                         ),
+                         margin: const EdgeInsets.only(
+                          right: 60, 
+                         ),
+                         width:600 ,child:
+                         cananeia
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
                                     color: Color.fromARGB(255, 41, 41, 41)),
-                                maxLines: 70, overflow: TextOverflow.visible,
+                                
                               )
-                            : const Text(''))
+                            : const Text('')))
                   ],
                 )),
           ),
