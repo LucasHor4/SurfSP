@@ -68,7 +68,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -138,7 +138,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -208,7 +208,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -278,7 +278,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -348,7 +348,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -418,7 +418,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -488,7 +488,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -558,7 +558,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -628,7 +628,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -698,7 +698,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -768,7 +768,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -838,7 +838,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -908,7 +908,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -978,7 +978,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
@@ -1048,7 +1048,7 @@ class PraiasState extends State<Praias> {
                 child: Stack(
                   children: [
                     Positioned(
-                      child: Image.asset(
+                      child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
                         width: 500,
                         height: 200,
