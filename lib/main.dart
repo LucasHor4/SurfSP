@@ -72,7 +72,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/uba.png',
                         width: MediaQuery.of(context).size.width - 50, 
                         height: 200,
                         fit: ubatuba ? BoxFit.cover : BoxFit.cover,
@@ -144,7 +144,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/car.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: caraguatatuba ? BoxFit.cover : BoxFit.cover,
@@ -215,7 +215,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/ilb.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: ilhabela ? BoxFit.cover : BoxFit.cover,
@@ -286,7 +286,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/ssb.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: ssebastiao ? BoxFit.cover : BoxFit.cover,
@@ -296,7 +296,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'São sebastião',
+                        'São Sebastião',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
@@ -357,7 +357,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/ber.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: bertioga ? BoxFit.cover : BoxFit.cover,
@@ -428,7 +428,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/gua.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: guaruja ? BoxFit.cover : BoxFit.cover,
@@ -438,7 +438,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'Guaruja',
+                        'Guarujá',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
@@ -499,7 +499,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/san.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: santos ? BoxFit.cover : BoxFit.cover,
@@ -529,7 +529,7 @@ class PraiasState extends State<Praias> {
                          width:MediaQuery.of(context).size.width - 1 ,child:
                          santos
                             ? const Text(
-                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
+                                'Um dos principais pontos de surf da Baixada Santista é a Praia de Gonzaga, em Santos. É conhecido por suas ondas consistentes e atmosfera urbana animada. Gonzaga oferece condições ideais para surfar ao longo do ano, com ondas que oferecem oportunidades ótimas para surfistas de todos os níveis. Particularmente nos meses de janeiro a novembro, que se chamam de primavera e inverno, as ondas têm uma tendência a ser mais intensas, sendo ideais para quem procura desafios mais elevados. O calçadão Gonzaga é ideal para corridas e caminhadas, possuindo vistas deslumbrantes do oceano e um ambiente descontraído para descomprimir sem rigor após uma sessão de surf.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
@@ -570,7 +570,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/svc.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: svicente ? BoxFit.cover : BoxFit.cover,
@@ -600,7 +600,7 @@ class PraiasState extends State<Praias> {
                          width:MediaQuery.of(context).size.width - 1 ,child:
                          svicente
                             ? const Text(
-                                'Um dos principais pontos de surf da Baixada Santista é a Praia de Gonzaga, em Santos. É conhecido por suas ondas consistentes e atmosfera urbana animada. Gonzaga oferece condições ideais para surfar ao longo do ano, com ondas que oferecem oportunidades ótimas para surfistas de todos os níveis. Particularmente nos meses de janeiro a novembro, que se chamam de primavera e inverno, as ondas têm uma tendência a ser mais intensas, sendo ideais para quem procura desafios mais elevados. O calçadão Gonzaga é ideal para corridas e caminhadas, possuindo vistas deslumbrantes do oceano e um ambiente descontraído para descomprimir sem rigor após uma sessão de surf.', //Aqui vai o texto sobre a praia.
+                                'Surfistas buscando ondas consistentes e um ambiente acolhedor frequentam a Praia de Itararé, em São Vicente. Itararé, reconhecida por suas excelentes condições de surf ao longo do ano, fornece diversos picos. As ondulações do sul têm swells que têm excelentes oportunidades para surfar, com ondas mais desafiadoras e tubulares, durante os meses de outono e inverno, de março a agosto. A praia possui uma variedade de restaurantes, bares e opções de hospedagem próximas, garantindo conforto e convivência aos visitantes por meio de uma infraestrutura completa. À parte do surf, a Praia de Itararé oferece diversas atividades e é um excelente local para desfrutar do sol e das vistas panorâmicas da baía de São Vicente além de ser um ponto de descanso.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
@@ -641,7 +641,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/prg.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: praiagrande ? BoxFit.cover : BoxFit.cover,
@@ -671,7 +671,7 @@ class PraiasState extends State<Praias> {
                          width:MediaQuery.of(context).size.width - 1 ,child:
                          praiagrande
                             ? const Text(
-                                'Surfistas buscando ondas consistentes e um ambiente acolhedor frequentam a Praia de Itararé, em São Vicente. Itararé, reconhecida por suas excelentes condições de surf ao longo do ano, fornece diversos picos. As ondulações do sul têm swells que têm excelentes oportunidades para surfar, com ondas mais desafiadoras e tubulares, durante os meses de outono e inverno, de março a agosto. A praia possui uma variedade de restaurantes, bares e opções de hospedagem próximas, garantindo conforto e convivência aos visitantes por meio de uma infraestrutura completa. À parte do surf, a Praia de Itararé oferece diversas atividades e é um excelente local para desfrutar do sol e das vistas panorâmicas da baía de São Vicente além de ser um ponto de descanso.', //Aqui vai o texto sobre a praia.
+                                'Para os amantes do surf, a Praia do Canto do Forte é uma ótima opção. Com uma extensão de 1,5 km, essa praia possui ondas médias que atraem surfistas ao longo do ano. Para recarregar as energias depois de uma sessão de surfe, o bairro do Canto do Forte tem opções gastronômicas na Avenida Marechal Mallet. O inverno é o melhor período para visitar essa praia, pois o mar oferece condições ideais para a prática do surfe e as ondas são mais consistentes. Aproveite a oportunidade para explorar a ilha arborizada, repleta de caranguejos e que confere um caráter único à região.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
@@ -712,7 +712,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/mon.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: mongagua ? BoxFit.cover : BoxFit.cover,
@@ -722,7 +722,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'Mongagua',
+                        'Mongaguá',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
@@ -742,7 +742,7 @@ class PraiasState extends State<Praias> {
                          width:MediaQuery.of(context).size.width - 1 ,child:
                          mongagua
                             ? const Text(
-                                'Para os amantes do surf, a Praia do Canto do Forte é uma ótima opção. Com uma extensão de 1,5 km, essa praia possui ondas médias que atraem surfistas ao longo do ano. Para recarregar as energias depois de uma sessão de surfe, o bairro do Canto do Forte tem opções gastronômicas na Avenida Marechal Mallet. O inverno é o melhor período para visitar essa praia, pois o mar oferece condições ideais para a prática do surfe e as ondas são mais consistentes. Aproveite a oportunidade para explorar a ilha arborizada, repleta de caranguejos e que confere um caráter único à região.', //Aqui vai o texto sobre a praia.
+                                'Surfistas em busca de sossego e boas ondas podem encontrar refúgio na Praia de Agenor de Campos, em Mongaguá. Uma das condições que atrai surfistas ao longo do ano é a praia. É particularmente popular durante os meses de inverno e primavera, que acontecem de junho a novembro. Em comparação com outras praias da região mais frequentadas, a atmosfera da Praia de Agenor de Campos é mais tranquila, proporcionando uma experiência mais intimista e descansante. A área do recife é grande, oferecendo espaço suficiente para os surfistas aproveitarem as ondas sem grandes grupos.  Prepare sua prancha de surf e vá até a Praia de Agenor de Campos, em Mongaguá, para um refúgio tranquilo e ideal para os amantes do surf!', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
@@ -783,7 +783,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/ita.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: itanhaem ? BoxFit.cover : BoxFit.cover,
@@ -793,7 +793,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'Itanhaem',
+                        'Itanhaém',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
@@ -813,7 +813,7 @@ class PraiasState extends State<Praias> {
                          width:MediaQuery.of(context).size.width - 1 ,child:
                          itanhaem
                             ? const Text(
-                                'Surfistas em busca de sossego e boas ondas podem encontrar refúgio na Praia de Agenor de Campos, em Mongaguá. Uma das condições que atrai surfistas ao longo do ano é a praia. É particularmente popular durante os meses de inverno e primavera, que acontecem de junho a novembro. Em comparação com outras praias da região mais frequentadas, a atmosfera da Praia de Agenor de Campos é mais tranquila, proporcionando uma experiência mais intimista e descansante. A área do recife é grande, oferecendo espaço suficiente para os surfistas aproveitarem as ondas sem grandes grupos.  Prepare sua prancha de surf e vá até a Praia de Agenor de Campos, em Mongaguá, para um refúgio tranquilo e ideal para os amantes do surf!', //Aqui vai o texto sobre a praia.
+                                'Situada no litoral sul de São Paulo, Itanhaém é um destino muito querido pelos surfistas por suas praias animadas e condições ideais para a prática do esporte. A Praia dos Sonhos é reconhecida como o ponto de surf mais aprimorado da região. Ao longo do ano, as ondulações na Praia dos Sonhos são constantes, proporcionando uma experiência desafiadora e emocional para ambos os níveis de habilidade. A paisagem deslumbrante da praia, combinada com falésias e uma vista panorâmica do oceano, eleva a especialidade de cada sessão de surf. Durante o ano, a Praia dos Sonhos oferece boas condições para surfar, mas há alguns períodos especificamente específicos. O início da primavera, de setembro a novembro, é a melhor época para encontrar ondas constantes e praias menos movimentadas.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
@@ -854,7 +854,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/per.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: peruibe ? BoxFit.cover : BoxFit.cover,
@@ -864,7 +864,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'Ubatuba',
+                        'Peruíbe',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
@@ -925,7 +925,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/igu.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: iguape ? BoxFit.cover : BoxFit.cover,
@@ -996,7 +996,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/ilc.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: ilhacomprida ? BoxFit.cover : BoxFit.cover,
@@ -1067,7 +1067,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/can.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: cananeia ? BoxFit.cover : BoxFit.cover,
@@ -1077,7 +1077,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'Cananeia',
+                        'Cananéia',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
@@ -1097,7 +1097,7 @@ class PraiasState extends State<Praias> {
                          width:MediaQuery.of(context).size.width - 1 ,child:
                          cananeia
                             ? const Text(
-                                'Surfistas em busca de paisagens naturais deslumbrantes e ondas emocionantes têm que chegar à Ilha Comprida, uma ilha cativante do litoral sul de São Paulo. A Praia do Boqueirão Sul é reconhecida como o melhor local para praticar surf, possuindo ambiente tranquilo e condições ideais para surfistas de todos os níveis. Conhecida por suas belezas naturais e rica história, Cananéia é uma das cidades mais antigas do Brasil e um destino encantador do litoral sul de São Paulo. Os surfistas consideram a praia da Ilha do Cardoso o melhor local para a prática do seu desporto, pois proporciona ondas de alta qualidade e um cenário natural preservado. Entre os surfistas, a Praia da Ilha do Cardoso é bastante conhecida. A praia faz parte do Parque Estadual da Ilha do Cardoso, área de proteção ambiental que garante a preservação do ecossistema local. O acesso à praia da Ilha do Cardoso é feito de barco, saindo de Cananéia, o que acrescenta um elemento de aventura ao trajeto. A infraestrutura da ilha é básica, com algumas pousadas e campings, mas as belezas naturais compensam a falta de comodidade.', //Aqui vai o texto sobre a praia.
+                                'Nesta cidade histórica, Cananéia, é um verdadeiro paraíso para surfistas que buscam ondas de qualidade e um ambiente natural preservado. É localizada no litoral sul de São Paulo. Particularmente, a Ilha do Cardoso se destaca como o ponto ideal para praticar surferismo na área. Para os amantes do surf, a ilha proporciona uma experiência única devido às suas praias intocadas e sua biodiversidade abundante. A Praia da Ilha do Cardoso é conhecida pelas suas ondas consistentes e bem formadas, ideais tanto para surfistas novatos como experientes. Durante o ano, as ondulações ocorrem com frequência, garantindo boas condições para o surf em qualquer locação. Chegar à Praia da Ilha do Cardoso é uma aventura por si só. O acesso é feito por barco, saindo de Cananéia, o que já dá um toque especial para a viagem.', //Aqui vai o texto sobre a praia.
                                 style: TextStyle(
                                     decoration: TextDecoration.none,
                                     fontSize: 20,
