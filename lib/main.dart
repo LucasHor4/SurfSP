@@ -72,7 +72,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/uba.png',
                         width: MediaQuery.of(context).size.width - 50, 
                         height: 200,
                         fit: ubatuba ? BoxFit.cover : BoxFit.cover,
@@ -144,7 +144,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/car.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: caraguatatuba ? BoxFit.cover : BoxFit.cover,
@@ -215,7 +215,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/ilb.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: ilhabela ? BoxFit.cover : BoxFit.cover,
@@ -286,7 +286,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/ssb.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: ssebastiao ? BoxFit.cover : BoxFit.cover,
@@ -296,7 +296,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'São sebastião',
+                        'São Sebastião',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
@@ -357,7 +357,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/ber.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: bertioga ? BoxFit.cover : BoxFit.cover,
@@ -428,7 +428,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/gua.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: guaruja ? BoxFit.cover : BoxFit.cover,
@@ -438,7 +438,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'Guaruja',
+                        'Guarujá',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
@@ -499,7 +499,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/san.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: santos ? BoxFit.cover : BoxFit.cover,
@@ -570,7 +570,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/svc.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: svicente ? BoxFit.cover : BoxFit.cover,
@@ -641,7 +641,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/prg.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: praiagrande ? BoxFit.cover : BoxFit.cover,
@@ -712,7 +712,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/mon.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: mongagua ? BoxFit.cover : BoxFit.cover,
@@ -722,7 +722,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'Mongagua',
+                        'Mongaguá',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
@@ -783,7 +783,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/ita.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: itanhaem ? BoxFit.cover : BoxFit.cover,
@@ -793,7 +793,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'Itanhaem',
+                        'Itanhaém',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
@@ -854,7 +854,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/per.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: peruibe ? BoxFit.cover : BoxFit.cover,
@@ -864,7 +864,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'Ubatuba',
+                        'Peruíbe',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
@@ -925,7 +925,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/igu.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: iguape ? BoxFit.cover : BoxFit.cover,
@@ -996,7 +996,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/ilc.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: ilhacomprida ? BoxFit.cover : BoxFit.cover,
@@ -1067,7 +1067,7 @@ class PraiasState extends State<Praias> {
                   children: [
                     Positioned(
                       child: Image.asset( //imagem da praia
-                        'img/Ubatuba-Melhores-Praias-Capa.jpg',
+                        'img/can.png',
                         width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: cananeia ? BoxFit.cover : BoxFit.cover,
@@ -1077,7 +1077,7 @@ class PraiasState extends State<Praias> {
                       top: 150,
                       left: 10,
                       child: Text(
-                        'Cananeia',
+                        'Cananéia',
                         style: TextStyle(
                             fontSize: 40,
                             color: Colors.white,
