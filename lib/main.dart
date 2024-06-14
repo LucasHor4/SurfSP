@@ -79,7 +79,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Ubatuba',
@@ -151,7 +151,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Caraguatatuba',
@@ -169,9 +169,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          caraguatatuba
                             ? const Text(
                                 'Conhecida por suas ondas longas e desafiadoras, a Praia de Massaguaçu, em Caraguatatuba, é um verdadeiro paraíso para surfistas avançados e intermediários. Para manobras radicais, é ideal ter águas agitadas e ondulações consistentes, especialmente de junho a novembro. A ampla praia garante espaço suficiente para surfistas e banhistas, enquanto a infraestrutura do entorno, que oferece restaurantes, bares e cafés, oferece conforto e comodidade. Além disso, Massaguaçu encanta com suas belezas naturais, oferecendo vistas panorâmicas do mar e das montanhas, sendo o local ideal para caminhadas e relaxamento após o surf. O fácil acesso e a proximidade facilitam a chegada. Prepare-se para uma deliciosa refeição e aproveite as ondas poderosas em um dos melhores spots do litoral norte de São Paulo!', //Aqui vai o texto sobre a praia.
@@ -222,7 +222,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Ilhabela',
@@ -240,9 +240,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          ilhabela
                             ? const Text(
                                 'Para surfistas em busca de ondas desafiadoras e um ambiente abrangente, a Praia do Bonete, em Ilhabela, é uma opção imperdível. Praia Bonete é reconhecida por suas ondas fortes e tubulares, sendo uma das melhores praias para surfe na região. Os meses de inverno e primavera, que vão de junho a novembro, são ideais para surfistas avançados e intermediários. A comunidade caiçara tradicional e uma natureza exuberante circunda a Praia do Bonete, que é acessível por trilha ou barco. É uma experiência única. Bonete adora a beleza natural da região, que inclui praias próximas e pontos de interesse interessantes para explorar. Depois de um dia intenso de surf, a tranquilidade e o isolamento da praia fazem dela o local ideal para descontrair e reencontrar-se com a natureza.', //Aqui vai o texto sobre a praia.
@@ -293,7 +293,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'São sebastião',
@@ -311,9 +311,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          ssebastiao
                             ? const Text(
                                 'Conhecida por suas ondas consistentes e desafiadoras, a Praia de Maresias, em São Sebastião, é um dos destinos mais famosos para surfistas do Brasil. Os meses de outono e inverno, de março a agosto, oferecem excelentes condições para surfistas, principalmente avançados e intermediários, pois as ondas são mais frequentes e as ondas alcançam seu melhor potencial. Maresias oferece uma vasta variedade de quiosques, bares, restaurantes e segurança, além de uma infraestrutura completa que o torna um local confortável e conveniente para passar o dia.  Possui um ambiente natural de tirar o fôlego com vistas panorâmicas do oceano e das montanhas circundantes.', //Aqui vai o texto sobre a praia.
@@ -337,6 +337,8 @@ class PraiasState extends State<Praias> {
                 bertioga = !bertioga;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
@@ -362,7 +364,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Bertioga',
@@ -380,9 +382,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          bertioga
                             ? const Text(
                                 'Para surfistas que procuram ondas consistentes e um ambiente tranquilo, a Praia de Guaratuba em Bertioga é um destino ideal. Uma escolha popular para surfistas de todos os níveis, Guaratuba é conhecida por suas ondas longas e bem formadas. As ondas frequentes e fortes ocorrem durante os meses de inverno e primavera, junho a novembro, oferecendo oportunidades ideais para praticar o surfe. A praia se destaca pelo ambiente natural bem preservado, extensos recifes e águas limpas, proporcionando muito espaço para os surfistas. Prepare sua prancha de surf e venha explorar as ondas constantes e o clima tranquilo da Praia de Guaratuba, um dos melhores spots de surf de Bertioga!', //Aqui vai o texto sobre a praia.
@@ -395,7 +397,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -433,7 +435,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Guaruja',
@@ -451,9 +453,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          guaruja
                             ? const Text(
                                 'Um dos destinos mais conhecidos para surfistas na região é a Praia de Pitangueiras, do Guarujá, porque oferece condições adequadas e um ambiente animado. Reconhecida por suas ondas constantes e variadas, Pitangueiras oferece oportunidades tanto para surfistas iniciantes quanto experientes. As ondas provocadas pelas ondulações do sul durante os meses de outono e inverno, ao longo de março a agosto, oferecem condições ideais para o surfe, com ondas mais desafiadoras e tubulares. A proximidade com o centro do Guarujá também facilita o acesso a serviços e comodidades adicionais. Além do surf, Pitangueiras é conhecida por seu ambiente animado e atividades de lazer como passeios de barco, natação e caminhadas na praia.', //Aqui vai o texto sobre a praia.
@@ -504,7 +506,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Santos',
@@ -522,9 +524,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          santos
                             ? const Text(
                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac tristique mi, sed tincidunt nulla. Curabitur ut nisi non risus consequat blandit. In massa velit, condimentum vitae congue id, finibus molestie urna. Ut sit amet commodo neque. In id nulla dapibus, vehicula enim sit amet, auctor mauris. Sed velit tortor, posuere ut bibendum in, tempor sed urna. Maecenas lacus metus, dapibus at accumsan vitae, volutpat sit amet elit. Integer auctor aliquet dui. Phasellus convallis elementum vehicula. Donec bibendum mauris a dui hendrerit, sit amet tempus sapien volutpat.', //Aqui vai o texto sobre a praia.
@@ -575,7 +577,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'São Vicente',
@@ -593,9 +595,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          svicente
                             ? const Text(
                                 'Um dos principais pontos de surf da Baixada Santista é a Praia de Gonzaga, em Santos. É conhecido por suas ondas consistentes e atmosfera urbana animada. Gonzaga oferece condições ideais para surfar ao longo do ano, com ondas que oferecem oportunidades ótimas para surfistas de todos os níveis. Particularmente nos meses de janeiro a novembro, que se chamam de primavera e inverno, as ondas têm uma tendência a ser mais intensas, sendo ideais para quem procura desafios mais elevados. O calçadão Gonzaga é ideal para corridas e caminhadas, possuindo vistas deslumbrantes do oceano e um ambiente descontraído para descomprimir sem rigor após uma sessão de surf.', //Aqui vai o texto sobre a praia.
@@ -646,7 +648,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Praia Grande',
@@ -664,9 +666,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          praiagrande
                             ? const Text(
                                 'Surfistas buscando ondas consistentes e um ambiente acolhedor frequentam a Praia de Itararé, em São Vicente. Itararé, reconhecida por suas excelentes condições de surf ao longo do ano, fornece diversos picos. As ondulações do sul têm swells que têm excelentes oportunidades para surfar, com ondas mais desafiadoras e tubulares, durante os meses de outono e inverno, de março a agosto. A praia possui uma variedade de restaurantes, bares e opções de hospedagem próximas, garantindo conforto e convivência aos visitantes por meio de uma infraestrutura completa. À parte do surf, a Praia de Itararé oferece diversas atividades e é um excelente local para desfrutar do sol e das vistas panorâmicas da baía de São Vicente além de ser um ponto de descanso.', //Aqui vai o texto sobre a praia.
@@ -717,7 +719,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Mongagua',
@@ -735,9 +737,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          mongagua
                             ? const Text(
                                 'Para os amantes do surf, a Praia do Canto do Forte é uma ótima opção. Com uma extensão de 1,5 km, essa praia possui ondas médias que atraem surfistas ao longo do ano. Para recarregar as energias depois de uma sessão de surfe, o bairro do Canto do Forte tem opções gastronômicas na Avenida Marechal Mallet. O inverno é o melhor período para visitar essa praia, pois o mar oferece condições ideais para a prática do surfe e as ondas são mais consistentes. Aproveite a oportunidade para explorar a ilha arborizada, repleta de caranguejos e que confere um caráter único à região.', //Aqui vai o texto sobre a praia.
@@ -788,7 +790,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Itanhaem',
@@ -806,9 +808,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          itanhaem
                             ? const Text(
                                 'Surfistas em busca de sossego e boas ondas podem encontrar refúgio na Praia de Agenor de Campos, em Mongaguá. Uma das condições que atrai surfistas ao longo do ano é a praia. É particularmente popular durante os meses de inverno e primavera, que acontecem de junho a novembro. Em comparação com outras praias da região mais frequentadas, a atmosfera da Praia de Agenor de Campos é mais tranquila, proporcionando uma experiência mais intimista e descansante. A área do recife é grande, oferecendo espaço suficiente para os surfistas aproveitarem as ondas sem grandes grupos.  Prepare sua prancha de surf e vá até a Praia de Agenor de Campos, em Mongaguá, para um refúgio tranquilo e ideal para os amantes do surf!', //Aqui vai o texto sobre a praia.
@@ -859,7 +861,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Ubatuba',
@@ -877,9 +879,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          peruibe
                             ? const Text(
                                 'Situada no litoral sul de São Paulo, a deslumbrante Praia do Guaraú atrai surfistas de todos os níveis. Ela é reconhecida como o ponto principal para surfistas, oferecendo ondas desafiadoras e uma beleza natural para tirar o fôlego. É famosa por suas ondas fortes e constantes, sendo o destino ideal para surfistas que buscam vivencias cativantes ao mar. Para iniciantes e surfistas conhecidos, as ondulações na Praia do Guaraú são constantes ao longo do ano, proporcionando condições boas. A acolhedora comunidade de surfistas estabelece um ambiente de camaradagem e troca de experiências. É comum ver grupos de surfistas locais e turistas trocando dicas e histórias, agregando ainda mais à experiência do surfista na região.', //Aqui vai o texto sobre a praia.
@@ -930,7 +932,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Iguape',
@@ -948,9 +950,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          iguape
                             ? const Text(
                                 'Os entusiastas do surf encontrarão em Iguape, uma cidade historicamente significativa no litoral sul de São Paulo, um destino inesperado. O melhor local para praticar esse esporte é a Praia da Juréia, pois proporciona uma combinação ideal de ondas emocionantes e um cenário natural deslumbrante. Todos os que se aventuram em suas águas têm a opção de uma experiência diversificada e emocional devido às variedades e força das ondas. Apesar de oferecer boas condições para surfar ao longo do ano, a Praia da Juréia é particularmente favorável em alguns períodos de surf. De setembro a novembro, a primavera é a perfeição perfeita para encontrar ondas consistentes e uma praia menos frequentada, possibilitando sessões de surf mais eficientes.', //Aqui vai o texto sobre a praia.
@@ -1001,7 +1003,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Ilha Comprida',
@@ -1019,9 +1021,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          ilhacomprida
                             ? const Text(
                                 'Surfistas em busca de paisagens naturais deslumbrantes e ondas emocionantes têm que chegar à Ilha Comprida, uma ilha cativante do litoral sul de São Paulo. A Praia do Boqueirão Sul é reconhecida como o melhor local para praticar surf, possuindo ambiente tranquilo e condições ideais para surfistas de todos os níveis. O outono, que acontece de março a junho, é uma excelente época, caracterizada por ondas bem formadas e condições climáticas confortáveis. No verão, que tem tempo de dezembro a fevereiro, apesar do aumento no número de visitantes, das temperaturas extremas e das boas ondas, especialmente no início da manhã e do final da tarde, garantem uma experiência específica no surf.', //Aqui vai o texto sobre a praia.
@@ -1072,7 +1074,7 @@ class PraiasState extends State<Praias> {
                       ),
                     ),
                     const Positioned(
-                      top: 160,
+                      top: 150,
                       left: 10,
                       child: Text(
                         'Cananeia',
@@ -1090,9 +1092,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          cananeia
                             ? const Text(
                                 'Surfistas em busca de paisagens naturais deslumbrantes e ondas emocionantes têm que chegar à Ilha Comprida, uma ilha cativante do litoral sul de São Paulo. A Praia do Boqueirão Sul é reconhecida como o melhor local para praticar surf, possuindo ambiente tranquilo e condições ideais para surfistas de todos os níveis. Conhecida por suas belezas naturais e rica história, Cananéia é uma das cidades mais antigas do Brasil e um destino encantador do litoral sul de São Paulo. Os surfistas consideram a praia da Ilha do Cardoso o melhor local para a prática do seu desporto, pois proporciona ondas de alta qualidade e um cenário natural preservado. Entre os surfistas, a Praia da Ilha do Cardoso é bastante conhecida. A praia faz parte do Parque Estadual da Ilha do Cardoso, área de proteção ambiental que garante a preservação do ecossistema local. O acesso à praia da Ilha do Cardoso é feito de barco, saindo de Cananéia, o que acrescenta um elemento de aventura ao trajeto. A infraestrutura da ilha é básica, com algumas pousadas e campings, mas as belezas naturais compensam a falta de comodidade.', //Aqui vai o texto sobre a praia.
