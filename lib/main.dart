@@ -43,6 +43,7 @@ class PraiasState extends State<Praias> {
       child: Center(
           child: ListView(
         children: [
+          
           //Praia de Ubatuba:
           GestureDetector(
             onTap: () {
@@ -50,16 +51,18 @@ class PraiasState extends State<Praias> {
                 ubatuba = !ubatuba;
               });
             },
-            child: AnimatedContainer(
-                //Container e configurações dele.
-
+            
+            child: 
+            Center(
+            child:
+            AnimatedContainer(
+                //Container e configurações dele.x
+            
                 margin: const EdgeInsets.only(
-                  bottom: 20,
-                  top: 20,
-                  left: 410,
-                  right: 410,
+                bottom: 20, //xx
+                top: 20
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: ubatuba ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -70,7 +73,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50, 
                         height: 200,
                         fit: ubatuba ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -94,9 +97,9 @@ class PraiasState extends State<Praias> {
                           left: 8,right: 100,
                          ),
                          margin: const EdgeInsets.only(
-                          right: 60, 
+                          right: 11, 
                          ),
-                         width:600 ,child:
+                         width:MediaQuery.of(context).size.width - 1 ,child:
                          ubatuba
                             ? const Text(
                                 'Um destino imperdível para surfistas de todos os níveis é Praia Grande, em Ubatuba. É reconhecido por suas ondas consistentes e acessíveis. É uma excelente área para surfe, principalmente de setembro a fevereiro, quando as ondas são mais suaves e ideais para iniciantes e intermediários.  Além de ser um local popular para o surf, a Praia Grande também é conhecida por sua atmosfera animada e paisagens de tirar o fôlego, o que a torna uma das praias mais populares de Ubatuba. Ideal para exercícios como caminhadas e corridas na areia, é também um ótimo lugar para desfrutar e admirar o sol.', //Aqui vai o texto sobre a praia.
@@ -108,9 +111,10 @@ class PraiasState extends State<Praias> {
                               )
                             : const Text('')))
                   ],
-                )),
-          ),
-
+                )
+                ),
+          ), ), 
+          
           // Fim da praia.
 
           //Praia de Caraguatatuba:
@@ -120,16 +124,17 @@ class PraiasState extends State<Praias> {
                 caraguatatuba = !caraguatatuba;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: caraguatatuba ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -140,7 +145,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: caraguatatuba ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -179,7 +184,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -190,16 +195,17 @@ class PraiasState extends State<Praias> {
                 ilhabela = !ilhabela;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: ilhabela ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -210,7 +216,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: ilhabela ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -249,7 +255,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -260,16 +266,17 @@ class PraiasState extends State<Praias> {
                 ssebastiao = !ssebastiao;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: ssebastiao ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -280,7 +287,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: ssebastiao ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -319,7 +326,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -334,12 +341,11 @@ class PraiasState extends State<Praias> {
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: bertioga ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -350,7 +356,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: bertioga ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -400,16 +406,17 @@ class PraiasState extends State<Praias> {
                 guaruja = !guaruja;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: guaruja ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -420,7 +427,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: guaruja ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -459,7 +466,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -470,16 +477,17 @@ class PraiasState extends State<Praias> {
                 santos = !santos;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: santos ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -490,7 +498,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: santos ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -529,7 +537,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -540,16 +548,17 @@ class PraiasState extends State<Praias> {
                 svicente = !svicente;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: svicente ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -560,7 +569,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: svicente ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -599,7 +608,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -610,16 +619,17 @@ class PraiasState extends State<Praias> {
                 praiagrande = !praiagrande;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: praiagrande ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -630,7 +640,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: praiagrande ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -669,7 +679,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -680,16 +690,17 @@ class PraiasState extends State<Praias> {
                 mongagua = !mongagua;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: mongagua ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -700,7 +711,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: mongagua ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -739,7 +750,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -750,16 +761,17 @@ class PraiasState extends State<Praias> {
                 itanhaem = !itanhaem;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: itanhaem ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -770,7 +782,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: itanhaem ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -809,7 +821,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -820,16 +832,17 @@ class PraiasState extends State<Praias> {
                 peruibe = !peruibe;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: peruibe ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -840,7 +853,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: peruibe ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -879,7 +892,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -890,16 +903,17 @@ class PraiasState extends State<Praias> {
                 iguape = !iguape;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: iguape ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -910,7 +924,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: iguape ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -949,7 +963,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -960,16 +974,17 @@ class PraiasState extends State<Praias> {
                 ilhacomprida = !ilhacomprida;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: ilhacomprida ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -980,7 +995,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: ilhacomprida ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -1019,7 +1034,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
 
@@ -1030,16 +1045,17 @@ class PraiasState extends State<Praias> {
                 cananeia = !cananeia;
               });
             },
+            child: 
+            Center(
             child: AnimatedContainer(
                 //Container e configurações dele.
 
                 margin: const EdgeInsets.only(
-                  bottom: 20,
+                  bottom: 20, //xx
                   top: 20,
-                  left: 410,
-                  right: 410,
+                  
                 ),
-                width: 316,
+                width: MediaQuery.of(context).size.width - 50,
                 height: cananeia ? 750 : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                 color: const Color.fromARGB(255, 217, 217, 217),
                 duration: const Duration(seconds: 1),
@@ -1050,7 +1066,7 @@ class PraiasState extends State<Praias> {
                     Positioned(
                       child: Image.asset( //imagem da praia
                         'img/Ubatuba-Melhores-Praias-Capa.jpg',
-                        width: 500,
+                        width: MediaQuery.of(context).size.width - 50,
                         height: 200,
                         fit: cananeia ? BoxFit.cover : BoxFit.cover,
                       ),
@@ -1089,7 +1105,7 @@ class PraiasState extends State<Praias> {
                             : const Text('')))
                   ],
                 )),
-          ),
+          ),),
 
           // Fim da praia.
         ],
