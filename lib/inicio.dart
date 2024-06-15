@@ -24,14 +24,10 @@ void main() {
 class Inicio extends StatelessWidget {
   const Inicio({super.key});
 
-
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-      appBar: AppBar(title:const Text('S U R F  S P', style: TextStyle(fontSize: 40), textAlign:TextAlign.center,), leading: Container(/* terminar  */),
-      ),
         body: Center(
           child: Container(
               decoration: const BoxDecoration(
@@ -60,27 +56,27 @@ class Inicio extends StatelessWidget {
                             borderRadius: BorderRadius.circular(8)),
                       ),
                       width: 300,
-                      child: TextButton(
-                        onPressed: () {
-                          Navigator.pushNamed(context, '/homepage');
-                        },
-                        style: const ButtonStyle(
-                            backgroundColor:
-                                WidgetStatePropertyAll(Colors.cyan)),
-                        child: const Text(
-                          'Tipos de Ondas',
-                          style: TextStyle(fontSize: 25),
-                        ),
-                      )
-                    )
+                      child: Builder(
+                          builder: (context) => TextButton(
+                                onPressed: () {
+                                  Navigator.pushNamed(context, '/praiaspage');
+                                },
+                                style: const ButtonStyle(
+                                    backgroundColor:
+                                        WidgetStatePropertyAll(Colors.cyan)),
+                                child: const Text(
+                                  'Tipos de Ondas',
+                                  style: TextStyle(fontSize: 25),
+                                ),
+                              )))
                 ],
               )),
         ),
       ),
       routes: {
-      '/homepage' : (context) => const Praias(),
-      '/inicio' : (context) => const Praias(),
-    },
+        '/homepage': (context) => const Inicio(),
+        '/praiaspage': (context) => const Praias(),
+      },
     );
   }
 }
