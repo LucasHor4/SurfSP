@@ -32,7 +32,7 @@ class Inicio extends StatelessWidget {
               decoration: const BoxDecoration(
                   image: DecorationImage(
                       image: AssetImage('img/fundo.png'), fit: BoxFit.cover)),
-              width: MediaQuery.of(context).size.width,
+              width: double.infinity,
               child: Column(
                 children: [
                   Container(
@@ -40,7 +40,7 @@ class Inicio extends StatelessWidget {
                       top: 20,
                     ),
                     child: Image.asset(
-                      'img/logosf.png',
+                      'img/logo-surfsp.png',
                       width: 300,
                       height: 300,
                     ),
@@ -54,7 +54,7 @@ class Inicio extends StatelessWidget {
                       decoration: ShapeDecoration(
                         color: const Color(0xFF91F2F5),
                         shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(8)),
+                            borderRadius: BorderRadius.circular(20)),
                       ),
                       width: 300,
                       child: Builder(
@@ -81,7 +81,7 @@ class Inicio extends StatelessWidget {
                       decoration: ShapeDecoration(
                         color: const Color(0xFF91F2F5),
                         shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(8)),
+                            borderRadius: BorderRadius.circular(20)),
                       ),
                       width: 300,
                       child: Builder(
