@@ -21,7 +21,7 @@ class Ondas extends StatelessWidget {
               Navigator.pop(context);
             }, 
             child: const Text
-            ('Pagina ainda não implementada! Aprete aqui para voltar.')
+            ('A pagina ou função ainda não foi implementada! Aprete no texto para voltar.')
             ),
 
         ),
