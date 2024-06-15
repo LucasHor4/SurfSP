@@ -20,8 +20,10 @@ class Ondas extends StatelessWidget {
             onPressed: () {
               Navigator.pop(context);
             }, 
+            style: const ButtonStyle(
+              backgroundColor: WidgetStatePropertyAll(Colors.cyan)),
             child: const Text
-            ('A pagina ou função ainda não foi implementada! Aprete no texto para voltar.')
+            ('A página ou função ainda não foi implementada! Aperte no texto para voltar.')
             ),
 
         ),

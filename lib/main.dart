@@ -61,7 +61,7 @@ class InicioState extends State<Inicio> {
                       child: Builder(
                           builder: (context) => TextButton(
                                 onPressed: () {
-                                  Navigator.pushNamed(context, '/praiaspage');
+                                  Navigator.pushNamed(context, '/ondaspage');
                                 },
                                 style: const ButtonStyle(
                                     backgroundColor:
@@ -94,7 +94,7 @@ class InicioState extends State<Inicio> {
                                     backgroundColor:
                                         WidgetStatePropertyAll(Colors.cyan)),
                                 child: const Text(
-                                  'Tipos de Ondas',
+                                  'Praias em SP',
                                   style: TextStyle(fontSize: 25),
                                 ),
                               )
