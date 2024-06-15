@@ -1,16 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:surfsp/praias.dart';
+import 'package:surfsp/ondas.dart';
 
 void main() {
   runApp(const Inicio());
 }
 
-// class Inicio extends StatefulWidget {
-//   const Inicio({super.key});
+class Inicio extends StatefulWidget {
+  const Inicio({super.key});
 
-//   @override
-//   State<Inicio> createState() => InicioState();
-// }
+  @override
+  State<Inicio> createState() => InicioState();
+}
 
 // class InicioState extends State<Inicio> {
 
@@ -20,8 +21,8 @@ void main() {
 //         home: Container(),;
 // }
 
-class Inicio extends StatelessWidget {
-  const Inicio({super.key});
+class InicioState extends State<Inicio> {
+  bool aberto = false;
 
   @override
   Widget build(BuildContext context) {
@@ -107,6 +108,7 @@ class Inicio extends StatelessWidget {
       routes: {
         '/homepage': (context) => const Inicio(),
         '/praiaspage': (context) => const Praias(),
+        '/ondaspage': (context) => const Ondas(),
       },
     );
   }

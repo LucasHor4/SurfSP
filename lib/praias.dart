@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 void main() {
   runApp(const Praias());
 }
@@ -29,20 +30,42 @@ class PraiasState extends State<Praias> {
   bool iguape = false;
   bool ilhacomprida = false;
   bool cananeia = false;
-  
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            appBar: AppBar(title: const Text(''), actions: <Widget>[
-              IconButton(
-                onPressed: () {
-                  Navigator.pop(context);
-                },
-                icon: const Icon(Icons.home),
-              )
-            ]),
+            appBar: AppBar(
+              actions: <Widget>[
+                IconButton(
+                  onPressed: () {
+                      Navigator.pop(context);
+                  },
+                  icon: const Icon(
+                    Icons.home,
+                    size: 35,
+                  ),
+                )
+              ],
+              title: Container(
+                  padding: const EdgeInsets.only(
+                    top: 5,
+                    right: 10,
+                  ),
+                  width: MediaQuery.of(context).size.width - 10,
+                  child: const TextField(
+                    decoration: InputDecoration(
+                        border: OutlineInputBorder(),
+                        labelText: 'Pesquise por praias...'),
+                    )
+                  ),
+            
+            
+            
+            ),
+
+
+
             body: GestureDetector(
               onTap: () {
                 setState(() {
