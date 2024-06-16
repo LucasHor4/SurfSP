@@ -168,7 +168,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: caraguatatuba
-                              ? 750
+                              ? 950
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -244,7 +244,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: ilhabela
-                              ? 750
+                              ? 900
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -318,7 +318,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: ssebastiao
-                              ? 750
+                              ? 850
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -392,7 +392,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: bertioga
-                              ? 750
+                              ? 850
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -466,7 +466,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: guaruja
-                              ? 750
+                              ? 850
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -540,7 +540,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: santos
-                              ? 750
+                              ? 850
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -614,7 +614,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: svicente
-                              ? 750
+                              ? 900
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -763,7 +763,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: mongagua
-                              ? 750
+                              ? 850
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -837,7 +837,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: itanhaem
-                              ? 750
+                              ? 900
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -911,7 +911,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: peruibe
-                              ? 750
+                              ? 850
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -985,7 +985,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: iguape
-                              ? 750
+                              ? 900
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -1059,7 +1059,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: ilhacomprida
-                              ? 750
+                              ? 850
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
@@ -1135,7 +1135,7 @@ class PraiasState extends State<Praias> {
                           ),
                           width: MediaQuery.of(context).size.width - 50,
                           height: cananeia
-                              ? 750
+                              ? 910
                               : 200, //aujuste de altura[altura quando selecionado : altura padrão]
                           color: const Color.fromARGB(255, 217, 217, 217),
                           duration: const Duration(seconds: 1),
