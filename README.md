@@ -12,5 +12,8 @@ https://github.com/LucasHor4/SurfSP/wiki/Imagens-do-prot%C3%B3tipo
 * Descrição dos widgets:
 https://github.com/LucasHor4/SurfSP/wiki/Descri%C3%A7%C3%A3o-dos-widgets
 
+* Desenvolvimento:
+https://github.com/LucasHor4/SurfSP/wiki/Desenvolvimento
+
 * Caso esteja procurando pelo código do projeto clique abaixo:
 https://github.com/LucasHor4/SurfSP/tree/appbranch
