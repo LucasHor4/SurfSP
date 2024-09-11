@@ -4,8 +4,3 @@ class usuario {
 
   usuario(this.idUsuario, this.nomeUsuario);
 }   
-
-mudarIdioma(){
-  
-
-}
