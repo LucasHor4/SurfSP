@@ -7,12 +7,9 @@ class Praia{
   late bool troca;
   late String imgPraia;
 
-Praia( this.idPraia, this.nomePraia, this.descPraia, this.troca, this.imgPraia);
-}
+  Praia( this.idPraia, this.nomePraia, this.descPraia, this.troca, this.imgPraia);
 
-
-
-teste(){
+  teste(){
   Praia praia1 =  Praia(1, "Ubatuba");
 
   // praia teste:
@@ -94,5 +91,6 @@ teste(){
         );  
 
                   // fim da praia teste
+  }
 }
 }
