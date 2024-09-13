@@ -59,7 +59,7 @@ class InicioState extends State<Inicio> {
                       ),
                       width: 300,
                       child: Builder(
-                          builder: (context) => TextButton(
+                          builder: (context) => ElevatedButton(
                                 onPressed: () {
                                   Navigator.pushNamed(context, '/ondaspage');
                                 },

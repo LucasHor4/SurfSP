@@ -7,4 +7,3 @@ class Endereco {
 
   Endereco( this.cep, this.cidade, this.bairro, this.rua, this.numero);
 }
-
