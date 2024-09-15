@@ -30,48 +30,78 @@ class TesteState extends State<Teste> {
     ),
     clPraia(
       3,
-      'nomePraia2',
-      'descPraia2',
-      'img/uba.png'
+      'Ilhabela',
+      'Para surfistas em busca de ondas desafiadoras e um ambiente abrangente, a Praia do Bonete, em Ilhabela, é uma opção imperdível. Praia Bonete é reconhecida por suas ondas fortes e tubulares, sendo uma das melhores praias para surfe na região. Os meses de inverno e primavera, que vão de junho a novembro, são ideais para surfistas avançados e intermediários. A comunidade caiçara tradicional e uma natureza exuberante circunda a Praia do Bonete, que é acessível por trilha ou barco. É uma experiência única. Bonete adora a beleza natural da região, que inclui praias próximas e pontos de interesse interessantes para explorar. Depois de um dia intenso de surf, a tranquilidade e o isolamento da praia fazem dela o local ideal para descontrair e reencontrar-se com a natureza.',
+      'img/ilb.png'
     ),
     clPraia(
       4,
-      'nomePraia2',
-      'descPraia2',
-      'img/uba.png'
+      'São Sebastião',
+      'Conhecida por suas ondas consistentes e desafiadoras, a Praia de Maresias, em São Sebastião, é um dos destinos mais famosos para surfistas do Brasil. Os meses de outono e inverno, de março a agosto, oferecem excelentes condições para surfistas, principalmente avançados e intermediários, pois as ondas são mais frequentes e as ondas alcançam seu melhor potencial. Maresias oferece uma vasta variedade de quiosques, bares, restaurantes e segurança, além de uma infraestrutura completa que o torna um local confortável e conveniente para passar o dia.  Possui um ambiente natural de tirar o fôlego com vistas panorâmicas do oceano e das montanhas circundantes.',
+      'img/ssb.png'
     ),
     clPraia(
       5,
-      'nomePraia2',
-      'descPraia2',
-      'img/uba.png'
+      'Bertioga',
+      'Para surfistas que procuram ondas consistentes e um ambiente tranquilo, a Praia de Guaratuba em Bertioga é um destino ideal. Uma escolha popular para surfistas de todos os níveis, Guaratuba é conhecida por suas ondas longas e bem formadas. As ondas frequentes e fortes ocorrem durante os meses de inverno e primavera, junho a novembro, oferecendo oportunidades ideais para praticar o surfe. A praia se destaca pelo ambiente natural bem preservado, extensos recifes e águas limpas, proporcionando muito espaço para os surfistas. Prepare sua prancha de surf e venha explorar as ondas constantes e o clima tranquilo da Praia de Guaratuba, um dos melhores spots de surf de Bertioga!',
+      'img/ber.png'
     ),
     clPraia(
       6,
-      'nomePraia2',
-      'descPraia2',
-      'img/uba.png'
+      'Guarujá',
+      'Um dos destinos mais conhecidos para surfistas na região é a Praia de Pitangueiras, do Guarujá, porque oferece condições adequadas e um ambiente animado. Reconhecida por suas ondas constantes e variadas, Pitangueiras oferece oportunidades tanto para surfistas iniciantes quanto experientes. As ondas provocadas pelas ondulações do sul durante os meses de outono e inverno, ao longo de março a agosto, oferecem condições ideais para o surfe, com ondas mais desafiadoras e tubulares. A proximidade com o centro do Guarujá também facilita o acesso a serviços e comodidades adicionais. Além do surf, Pitangueiras é conhecida por seu ambiente animado e atividades de lazer como passeios de barco, natação e caminhadas na praia.',
+      'img/gua.png'
     ),
     clPraia(
       7,
-      'nomePraia2',
-      'descPraia2',
-      'img/uba.png'
+      'Santos',
+      'Um dos principais pontos de surf da Baixada Santista é a Praia de Gonzaga, em Santos. É conhecido por suas ondas consistentes e atmosfera urbana animada. Gonzaga oferece condições ideais para surfar ao longo do ano, com ondas que oferecem oportunidades ótimas para surfistas de todos os níveis. Particularmente nos meses de janeiro a novembro, que se chamam de primavera e inverno, as ondas têm uma tendência a ser mais intensas, sendo ideais para quem procura desafios mais elevados. O calçadão Gonzaga é ideal para corridas e caminhadas, possuindo vistas deslumbrantes do oceano e um ambiente descontraído para descomprimir sem rigor após uma sessão de surf.',
+      'img/san.png'
     ),
     clPraia(
       8,
-      'nomePraia2',
-      'descPraia2',
-      'img/uba.png'
+      'São Vicente',
+      'Surfistas buscando ondas consistentes e um ambiente acolhedor frequentam a Praia de Itararé, em São Vicente. Itararé, reconhecida por suas excelentes condições de surf ao longo do ano, fornece diversos picos. As ondulações do sul têm swells que têm excelentes oportunidades para surfar, com ondas mais desafiadoras e tubulares, durante os meses de outono e inverno, de março a agosto. A praia possui uma variedade de restaurantes, bares e opções de hospedagem próximas, garantindo conforto e convivência aos visitantes por meio de uma infraestrutura completa. À parte do surf, a Praia de Itararé oferece diversas atividades e é um excelente local para desfrutar do sol e das vistas panorâmicas da baía de São Vicente além de ser um ponto de descanso.',
+      'img/svc.png'
     ),
     clPraia(
       9,
+      'Praia Grande',
+      'Para os amantes do surf, a Praia do Canto do Forte é uma ótima opção. Com uma extensão de 1,5 km, essa praia possui ondas médias que atraem surfistas ao longo do ano. Para recarregar as energias depois de uma sessão de surfe, o bairro do Canto do Forte tem opções gastronômicas na Avenida Marechal Mallet. O inverno é o melhor período para visitar essa praia, pois o mar oferece condições ideais para a prática do surfe e as ondas são mais consistentes. Aproveite a oportunidade para explorar a ilha arborizada, repleta de caranguejos e que confere um caráter único à região.',
+      'img/prg.png'
+    ),
+    clPraia(
+      10,
+      'Mongaguá',
+      'Surfistas em busca de sossego e boas ondas podem encontrar refúgio na Praia de Agenor de Campos, em Mongaguá. Uma das condições que atrai surfistas ao longo do ano é a praia. É particularmente popular durante os meses de inverno e primavera, que acontecem de junho a novembro. Em comparação com outras praias da região mais frequentadas, a atmosfera da Praia de Agenor de Campos é mais tranquila, proporcionando uma experiência mais intimista e descansante. A área do recife é grande, oferecendo espaço suficiente para os surfistas aproveitarem as ondas sem grandes grupos.  Prepare sua prancha de surf e vá até a Praia de Agenor de Campos, em Mongaguá, para um refúgio tranquilo e ideal para os amantes do surf!',
+      'img/mon.png'
+    ),
+    clPraia( //continuar...
+      11,
       'nomePraia2',
       'descPraia2',
       'img/uba.png'
     ),
     clPraia(
-      10,
+      12,
+      'nomePraia2',
+      'descPraia2',
+      'img/uba.png'
+    ),
+    clPraia(
+      13,
+      'nomePraia2',
+      'descPraia2',
+      'img/uba.png'
+    ),
+    clPraia(
+      14,
+      'nomePraia2',
+      'descPraia2',
+      'img/uba.png'
+    ),
+    clPraia(
+      15,
       'nomePraia2',
       'descPraia2',
       'img/uba.png'
@@ -87,9 +117,10 @@ class TesteState extends State<Teste> {
           child: ListView.builder(
             itemBuilder: (context, index) {
               bool troca = true;
-              return StatefulBuilder(
+              return 
+              StatefulBuilder( // esse cara q faz a magica funcionar, o StatefulBuilder
                   builder: (context, setState) => GestureDetector(
-                      onTap: () {
+                      onTap: () {//aqui muda se tá aberto ou n (lá ele)
                         setState(() {
                           troca = !troca;
                         });
@@ -97,7 +128,7 @@ class TesteState extends State<Teste> {
                       child:Center(
                         child: 
                       AnimatedContainer(
-                        //Container e configurações dele.x
+                        //Container e configurações dele
                         margin: const EdgeInsets.only(
                             bottom: 20, //xx
                             top: 20),
@@ -182,6 +213,7 @@ class PraiasP extends StatefulWidget {
 class PraiasState extends State<PraiasP> {
   //Declarando variaveis para usar na alternação de ligado e desligado.⬇⬇
   bool selected = false; //esse é um exemplo.
+  
   bool ubatuba = false;
   bool caraguatatuba = false;
   bool ilhabela = false;
