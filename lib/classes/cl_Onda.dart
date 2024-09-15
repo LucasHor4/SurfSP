@@ -1,8 +1,8 @@
-class Onda{
+class clOnda{
   late int idOnda;
   final String tipoOnda;
   final String descOnda;
 
-  Onda( this.idOnda, this.tipoOnda, this.descOnda);
+  clOnda( this.idOnda, this.tipoOnda, this.descOnda);
 }
 

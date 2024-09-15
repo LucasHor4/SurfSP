@@ -14,103 +14,155 @@ class Teste extends StatefulWidget {
 }
 
 class TesteState extends State<Teste> {
+  //lista de instancias das praias:
   List<clPraia> lpraia = [
-    clPraia(1, 'nomePraia', 'descPraia', 'img/uba.png'),
-    clPraia(2, 'nomePraia2', 'descPraia2', 'img/uba.png'),
+    clPraia(
+      1,
+      'Ubatuba',
+      'Um destino imperdível para surfistas de todos os níveis é Praia Grande, em Ubatuba. É reconhecido por suas ondas consistentes e acessíveis. É uma excelente área para surfe, principalmente de setembro a fevereiro, quando as ondas são mais suaves e ideais para iniciantes e intermediários.  Além de ser um local popular para o surf, a Praia Grande também é conhecida por sua atmosfera animada e paisagens de tirar o fôlego, o que a torna uma das praias mais populares de Ubatuba. Ideal para exercícios como caminhadas e corridas na areia, é também um ótimo lugar para desfrutar e admirar o sol.',
+      'img/uba.png'
+    ),
+    clPraia(
+      2,
+      'Caraguatatuba',
+      'Conhecida por suas ondas longas e desafiadoras, a Praia de Massaguaçu, em Caraguatatuba, é um verdadeiro paraíso para surfistas avançados e intermediários. Para manobras radicais, é ideal ter águas agitadas e ondulações consistentes, especialmente de junho a novembro. A ampla praia garante espaço suficiente para surfistas e banhistas, enquanto a infraestrutura do entorno, que oferece restaurantes, bares e cafés, oferece conforto e comodidade. Além disso, Massaguaçu encanta com suas belezas naturais, oferecendo vistas panorâmicas do mar e das montanhas, sendo o local ideal para caminhadas e relaxamento após o surf. O fácil acesso e a proximidade facilitam a chegada. Prepare-se para uma deliciosa refeição e aproveite as ondas poderosas em um dos melhores spots do litoral norte de São Paulo!',
+      'img/car.png'
+    ),
+    clPraia(
+      3,
+      'nomePraia2',
+      'descPraia2',
+      'img/uba.png'
+    ),
+    clPraia(
+      4,
+      'nomePraia2',
+      'descPraia2',
+      'img/uba.png'
+    ),
+    clPraia(
+      5,
+      'nomePraia2',
+      'descPraia2',
+      'img/uba.png'
+    ),
+    clPraia(
+      6,
+      'nomePraia2',
+      'descPraia2',
+      'img/uba.png'
+    ),
+    clPraia(
+      7,
+      'nomePraia2',
+      'descPraia2',
+      'img/uba.png'
+    ),
+    clPraia(
+      8,
+      'nomePraia2',
+      'descPraia2',
+      'img/uba.png'
+    ),
+    clPraia(
+      9,
+      'nomePraia2',
+      'descPraia2',
+      'img/uba.png'
+    ),
+    clPraia(
+      10,
+      'nomePraia2',
+      'descPraia2',
+      'img/uba.png'
+    ),
   ];
 
   @override
   Widget build(BuildContext context) {
-    ListView.builder(
-      itemCount: lpraia.length,
-      itemBuilder: (BuildContext context, index) {
-        return ListTile(
-          title: Text(lpraia[0].nomePraia),
-        );
-      },
-    );
+    double tamanho = MediaQuery.of(context).size.width;
     return MaterialApp(
       home: Scaffold(
         body: Center(
           child: ListView.builder(
             itemBuilder: (context, index) {
               bool troca = true;
-              return AbsorbPointer(
-                  absorbing: true,
-                  child: GestureDetector(
-                    // começa aqui
-                    onTap: () {
-                      setState(() {
-                        troca = !troca;
-                        Navigator.pop(context);
-                      });
-                    },
-                    child: Center(
-                      child: AnimatedContainer(
-                          //Container e configurações dele.x
-                          margin: const EdgeInsets.only(
-                              bottom: 20, //xx
-                              top: 20),
-                          width: MediaQuery.of(context).size.width - 50,
-                          height: (troca == false)
-                              ? 750
-                              : 200, //ajuste de altura[altura quando selecionado : altura padrão]
-                          color: const Color.fromARGB(255, 217, 217, 217),
-                          duration: const Duration(seconds: 1),
-                          curve: Curves.ease,
-                          //Texto sobre as praias.
-                          child: Stack(
-                            children: [
-                              Positioned(
-                                child: Image.asset(
-                                  //imagem da praia
-                                  lpraia[index].imgPraia,
-                                  width: MediaQuery.of(context).size.width - 50,
-                                  height: 200,
-                                  fit: (troca == false)
-                                      ? BoxFit.cover
-                                      : BoxFit.cover,
-                                ),
+              return StatefulBuilder(
+                  builder: (context, setState) => GestureDetector(
+                      onTap: () {
+                        setState(() {
+                          troca = !troca;
+                        });
+                      },
+                      child:Center(
+                        child: 
+                      AnimatedContainer(
+                        //Container e configurações dele.x
+                        margin: const EdgeInsets.only(
+                            bottom: 20, //xx
+                            top: 20),
+                        width: tamanho - 50,
+                        height: (troca == false)
+                            ? 750
+                            : 200, //ajuste de altura[altura quando selecionado : altura padrão]
+                        color: const Color.fromARGB(255, 217, 217, 217),
+                        duration: const Duration(seconds: 1),
+                        curve: Curves.ease,
+                        //Texto sobre as praias.
+                        child: Stack(
+                          children: [
+                            Positioned(
+                              child: Image.asset(
+                                //imagem da praia
+                                lpraia[index].imgPraia,
+                                width: tamanho - 50,
+                                height: 200,
+                                fit: (troca == false)
+                                    ? BoxFit.cover
+                                    : BoxFit.cover,
                               ),
-                              Positioned(
-                                top: 150,
-                                left: 10,
-                                child: Text(
-                                  lpraia[index].nomePraia,
-                                  style: const TextStyle(
-                                      fontSize: 40,
-                                      color: Colors.white,
-                                      decoration: TextDecoration.none),
-                                ),
+                            ),
+                            Positioned(
+                              top: 150,
+                              left: 10,
+                              child: Text(
+                                lpraia[index].nomePraia,
+                                style: const TextStyle(
+                                    fontSize: 40,
+                                    color: Colors.white,
+                                    decoration: TextDecoration.none),
                               ),
-                              Positioned(
-                                  top: 200,
-                                  left: 2,
-                                  child: Container(
-                                      padding: const EdgeInsets.only(
-                                        left: 8,
-                                        right: 100,
-                                      ),
-                                      margin: const EdgeInsets.only(
-                                        right: 11,
-                                      ),
-                                      width:
-                                          MediaQuery.of(context).size.width - 1,
-                                      child: (troca == false)
-                                          ? Text(
-                                              lpraia[index].descPraia,
-                                              style: const TextStyle(
-                                                  decoration:
-                                                      TextDecoration.none,
-                                                  fontSize: 20,
-                                                  color: Color.fromARGB(
-                                                      255, 41, 41, 41)),
-                                            )
-                                          : const Text('')))
-                            ],
-                          )),
-                    ),
-                  ));
+                            ),
+                            Positioned(
+                                top: 200,
+                                left: 2,
+                                child: Container(
+                                    padding: const EdgeInsets.only(
+                                      left: 8,
+                                      right: 100,
+                                    ),
+                                    margin: const EdgeInsets.only(
+                                      right: 11,
+                                    ),
+                                    width:
+                                        tamanho - 1,
+                                    child: (troca == false)
+                                        ? Text(
+                                            lpraia[index].descPraia,
+                                            style: const TextStyle(
+                                                decoration: TextDecoration.none,
+                                                fontSize: 20,
+                                                color: Color.fromARGB(
+                                                    255, 41, 41, 41)),
+                                          )
+                                        : const Text('')))
+                          ],
+                        ),
+                      )
+                  )
+                    )
+                  )
+                ;
             },
             itemCount: lpraia.length,
           ),
