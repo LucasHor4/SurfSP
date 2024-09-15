@@ -107,7 +107,8 @@ class InicioState extends State<Inicio> {
       ),
       routes: {
         '/homepage': (context) => const Inicio(),
-        '/praiaspage': (context) => const Praias(),
+        // '/praiaspage': (context) => const PraiasP(),
+        '/praiaspage': (context) => const Teste(),
         '/ondaspage': (context) => const Ondas(),
       },
     );
