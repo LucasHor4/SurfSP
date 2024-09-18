@@ -6,6 +6,5 @@ class clPraia {
 
   clPraia(this.idPraia, this.nomePraia, this.descPraia, this.imgPraia);
 
-  teste() {
-  }
+  
 }

@@ -20,6 +20,30 @@ class OndasState extends State<Ondas> {
       'descOnda',
       'imgOnda'
       ),
+    clOnda(
+      2, 
+      'tipoOnda', 
+      'descOnda',
+      'imgOnda'
+      ),
+    clOnda(
+      3, 
+      'tipoOnda', 
+      'descOnda',
+      'imgOnda'
+      ),
+    clOnda(
+      4, 
+      'tipoOnda', 
+      'descOnda',
+      'imgOnda'
+      ),
+    clOnda(
+      5, 
+      'tipoOnda', 
+      'descOnda',
+      'imgOnda'
+      ),
   ];
 
   @override
