@@ -3,4 +3,6 @@ class Usuario {
   final String nomeUsuario;
 
   Usuario(this.idUsuario, this.nomeUsuario);
+
 }   
+
