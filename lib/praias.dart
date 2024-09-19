@@ -119,7 +119,7 @@ class PraiasState extends State<Praias> {
                 decoration: const InputDecoration(
                     border: OutlineInputBorder(),
                     labelText: 'Pesquise por praias...'),
-                onChanged: Controlador.onChanged(),
+                
               )),
         ),
         body: Center(

@@ -16,33 +16,33 @@ class OndasState extends State<Ondas> {
   List<clOnda> lOnda = [
     clOnda(
       1, 
-      'tipoOnda', 
-      'descOnda',
-      'imgOnda'
+      'Beach Break',  
+      'Beach Break é a onda que quebra no fundo de areia. Esse tipo de bancada muda o tempo todo, afinal a areia se movimenta no fundo do mar com a ação da maré, do vento e de outros fatores naturais. Por causa dessas mudanças da bancada, esse tipo de onda para surfar se desloca e pode quebrar mais longe ou mais perto da costa e em locais diferentes da praia. No Brasil, a grande maioria das nossas ondas são Beach Breaks. Elas são bastante indicadas para surfistas iniciantes, por oferecerem um pouco mais de segurança na hora da “vaca” (quando você cai da prancha). Por outro lado, surfar um Beach Break requer uma boa leitura da onda para saber onde é o pico (melhor lugar para dropar a onda). Ou seja, esteja sempre atenta para identificar onde a onda vai quebrar. Alguns Beach Breaks bastante conhecidos no Brasil são Maresias (São Paulo), Cacimba do Padre (Fernando de Noronha) e Itacoatiara (Rio de Janeiro).',
+      'img/ilc.png'
       ),
     clOnda(
       2, 
-      'tipoOnda', 
-      'descOnda',
-      'imgOnda'
+      'Reef Break', 
+      'Point Break é a onda que quebra no fundo de pedra. Pelo fato das pedras proporcionarem estabilidade à bancada onde a onda vai quebrar, as características desse tipo de onda para surfar são mais constantes, isto é, com menos variações do que os Beach Breaks. Surfar em um fundo de pedra pode deixar as surfistas iniciantes um pouco receosas. E não é para menos, já que bater nas pedras durante a queda realmente pode ser perigoso. Portanto, fica aqui a nossa dica de ouro: procure sempre a ajuda de uma professora de surf que conheça o local. As ondas no fundo de pedra têm o potencial de serem bem mais longas do que as que quebram no fundo de areia. Alguns Point Breaks brasileiros são a Praia da Silveira (Santa Catarina) e o Pontal de Baía Formosa (Rio Grande do Norte).',
+      'img/reefBreak.jpg'
       ),
     clOnda(
       3, 
-      'tipoOnda', 
-      'descOnda',
-      'imgOnda'
+      'Point Break', 
+      'Point Break é a onda que quebra no fundo de pedra. Pelo fato das pedras proporcionarem estabilidade à bancada onde a onda vai quebrar, as características desse tipo de onda para surfar são mais constantes, isto é, com menos variações do que os Beach Breaks. Surfar em um fundo de pedra pode deixar as surfistas iniciantes um pouco receosas. E não é para menos, já que bater nas pedras durante a queda realmente pode ser perigoso. Portanto, fica aqui a nossa dica de ouro: procure sempre a ajuda de uma professora de surf que conheça o local. As ondas no fundo de pedra têm o potencial de serem bem mais longas do que as que quebram no fundo de areia. Alguns Point Breaks brasileiros são a Praia da Silveira (Santa Catarina) e o Pontal de Baía Formosa (Rio Grande do Norte).',
+      'img/poiBreak.jpg'
       ),
     clOnda(
       4, 
-      'tipoOnda', 
-      'descOnda',
-      'imgOnda'
+      'Crumbly', 
+      'Este tipo de onda não é muito forte, são ideais para quem está aprendendo a surfar. Isso se deve ao fato de não serem muito íngremes e nem muito rápidas. Além disso, são ótimas para os surfistas mais experientes, pois a face delas é ideal para praticar manobras e se aperfeiçoar.',
+      'img/Crumbly.jpeg'
       ),
     clOnda(
       5, 
-      'tipoOnda', 
-      'descOnda',
-      'imgOnda'
+      'Tube', 
+      'A onda tipo tubo é uma onda oca, e é a mais procurada pelos surfistas. Quem já teve a oportunidade de surfar em uma delas sempre descreve como uma experiência incrível, estar rodeado pela água ao mesmo tempo em que continua se movendo pela onda. Para os iniciantes, o melhor é ficar longe delas. O ideal é continuar ganhando experiência em ondas mais fáceis para depois tentar a sorte em um tubo.',
+      'img/Tube.jpeg'
       ),
   ];
 
